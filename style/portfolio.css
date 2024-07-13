@@ -203,12 +203,23 @@ footer textarea {
 .hide{
 display: none;
 }
-@media screen and (max-width:576)
+@media screen and (max-width:576px)
 {
-.skills-container,.resume-container,footer,.about-items
+.skills-container,.resume-container,footer,.about-items,.banner
 {
 flex-direction: column;
 /* background-color: red; */
+}
+.banner{
+margin: 20px;
+}
+.banner-profile-pic
+{
+width: 100%;
+}
+.header
+{
+background-image: none;
 }
 footer,.about
 {
