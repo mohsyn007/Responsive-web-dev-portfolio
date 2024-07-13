@@ -205,10 +205,17 @@ display: none;
 }
 @media screen and (max-width:576px)
 {
-.skills-container,.resume-container,footer,.about-items,.banner
+.skills-container,.resume-container,footer,.about-items,.banner,nav,nav>ul
 {
 flex-direction: column;
 /* background-color: red; */
+}
+nav>ul{
+gap: 20px;
+}
+.btn-primary
+{
+margin-bottom: 20px;
 }
 .banner{
 margin: 20px;
